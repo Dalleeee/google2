@@ -1,6 +1,11 @@
-.logo {
+#logo {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 196px;
+}
+
+.logo {
+    height: 92px;
+    width: 272px;
 }
 
 .gmail {
@@ -13,10 +18,10 @@
     font-size: 14px;
 }
 
-ul {
+#nav-right {
     position: absolute;
-    top: 0;
-    right: 5px;
+    top: 20px;
+    right: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -30,20 +35,80 @@ li {
 #searchbar {
     text-align: center;
     margin-top: 1.5em;
-    
 }
 
 #search {
-    width: 350px;
-    height: 25px;
+    width: 600px;
+    height: 45px;
+    border-color: ghostwhite;
+    border-top: ghostwhite;
+    border-left: ghostwhite;
+    border-radius: 25px;
+}
+
+#search:hover {
+    box-shadow: 0 0 1px 2px lightgrey;
 }
 
 button {
-    height: 30px;
-    background-color: lightgrey;
+    background-color:ghostwhite;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    color: darkslategrey;
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+    border: lightgrey;
+    box-shadow: 0 0 1px 1px lightgrey;
+}
+
+#nav-left {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 23px;
+}
+
+.left {
+    display:inline-block;
+    float: left;
+    margin-right: 17px;
+    font-size: 16px;
+}
+
+#Français {
+    color: blue;
+}
+
+.translation {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.canada {
+    position: absolute;
+    bottom: 60px;
+    left: 35px;
+}
+
+#bottom-nav {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+}
+
+.business {
+    padding: 0 30px;
 }
