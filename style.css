@@ -64,6 +64,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 button:hover {
     cursor: pointer;
     border: lightgrey;
@@ -98,17 +102,71 @@ button:hover {
 .canada {
     position: absolute;
     bottom: 60px;
+    left: 0px;
+    width: 100%;
+    background-color: #d6d6d68a;
+    border-bottom: 1px solid lightgray;
+}
+
+.canada2 {
+    position: relative;
     left: 35px;
 }
 
-#bottom-nav {
-    display: inline-block;
-    float: left;
+body {
+    margin: 0;
+}
+
+.bottom-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     position: absolute;
-    bottom: 15px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #d6d6d68a;
+    width: 100%;
+    /*
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 3.75em;
+    background-color:lightslategray */
+}
+
+#advertising {
+    position: absolute;
+    bottom: 25px;
     left: 40px;
 }
 
-.business {
-    padding: 0 30px;
+#business {
+    position: absolute;
+    bottom: 25px;
+    left: 140px;
+}
+
+#works {
+    position: absolute;
+    bottom: 25px;
+    left: 220px;
+}
+
+#privacy {
+    position: absolute;
+    bottom: 25px;
+    right: 165px;
+}
+
+#terms {
+    position: absolute;
+    bottom: 25px;
+    right: 110px;
+}
+
+#settings {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
 }
