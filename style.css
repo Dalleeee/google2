@@ -1,0 +1,49 @@
+.logo {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.gmail {
+    padding: 8px 5px;
+    font-size: 14px;
+}
+
+.images {
+    padding: 8px 25px;
+    font-size: 14px;
+}
+
+ul {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    float: right;
+}
+
+#searchbar {
+    text-align: center;
+    margin-top: 1.5em;
+    
+}
+
+#search {
+    width: 350px;
+    height: 25px;
+}
+
+button {
+    height: 30px;
+    background-color: lightgrey;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
